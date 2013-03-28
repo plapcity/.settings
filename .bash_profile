@@ -7,3 +7,7 @@ alias runserver="python manage.py runserver 0.0.0.0:8000"
 export PS1="\u@\h:\w$ "
 source ~/.git-completion.bash
 export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+#the following is for RVM only 
+source ~/.bashrc
+source ~/.zschrc
+source ~/.zprofile 
