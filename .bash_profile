@@ -8,6 +8,7 @@ export PS1="\u@\h:\w$ "
 source ~/.git-completion.bash
 export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 #the following is for RVM only 
-source ~/.bashrc
-source ~/.zschrc
-source ~/.zprofile 
+# source ~/.bashrc
+# source ~/.zschrc
+# source ~/.zprofile 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
